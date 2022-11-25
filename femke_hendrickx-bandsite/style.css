@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+body {
+    background-color: rgb(177, 252, 252);
+    color: rgb(4, 4, 149);
+    text-align: center;
+
+     }
+header {
+    background-image: url(Images/Kanine-scaled.jpeg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%
+    text-align center;
+    letter-spacing: 0.2ch;
+
+
+    }
+
+header div {
+    height: 200px;
+}
+main {
+    background-color: rgb(135, 253, 253);
+}
+#new {
+    background-color: rgb(255, 167, 133);
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px;
+}
+nav a {
+    display: block;
+    padding: 20px;
+    border: 2px solid rgb(11, 0, 163); 
+    background-color: cyan;
+}
+#merchandise {
+    background-color: rgb(116, 116, 255);
+}
+
+#tour {
+    background-color: rgb(145, 145, 145);
+}
+nav a:hover {
+    background-color: rgb(187, 249, 255);
+    color: rgb(0, 31, 67);
+  }
+h1 {
+    color: rgb(123, 121, 121);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 67px;
+}
+
