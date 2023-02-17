@@ -3,6 +3,7 @@
     margin: 0;
 
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -35,12 +36,6 @@ header nav a {
 
 /* vormgeving classes */
 
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-
-}
-
 .align-center {
     align-items: center;
 }
@@ -51,4 +46,66 @@ nav a :hover {
 
 img {
     width: 6rem;
+}
+
+.videoframe {
+    overflow: hidden;
+    margin-bottom: 6rem;
+    max-height: 100vh;
+}
+
+video {
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+#minishop img {
+    width: 100%;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+    font-size: 10px;
+}
+
+.bgd-joinus {
+    background-image: url("static/img/joinus.webp");
+    background-size: cover;
+    background-position: right;
+}
+
+#categories {
+    padding: 20px 20px;
+
+}
+
+#categories img {
+    width: 350px;
+}
+
+button {
+    border-radius: 100px;
+    align-content: center;
+    padding: 5px 10px;
+    border-style: hidden;
+    background-color: white;
+    font-size: 20px;
 }
