@@ -1,0 +1,56 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styling */
+  header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  .row1 {
+    height: 20vh;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #050d80;
+  }
+  
+  nav a:hover {
+    color: #dadada;
+    background-color: #000;
+    border-radius: 5px;
+  }
+
+ 
