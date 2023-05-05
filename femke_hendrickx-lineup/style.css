@@ -37,3 +37,36 @@ header img{
     height: 200px;
     width: 400px;
 }
+footer {
+    padding: 5vw 10vw;
+    background-color: #EB92BE;
+    color: #666;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+footer i {
+    margin-left: 1ch;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
+
