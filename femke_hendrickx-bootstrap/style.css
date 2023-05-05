@@ -1,0 +1,53 @@
+/* CSS styles for the website layout */
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+}
+
+h1, h2 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+
+.col {
+	flex: 1;
+	padding: 10px;
+}
+
+.col h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	border: 2px solid #00ff00;
+	padding: 10px;
+	text-align: center;
+}
+
+.col ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 20px;
+}
+
+.col ul li {
+	margin-bottom: 10px;
+}
+
+.col p {
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+@media (max-width: 767px) {
+	.col {
+		flex-basis: 100%;
+	}
+}
+
