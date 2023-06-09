@@ -55,10 +55,6 @@ header label[for="burger"] {
     cursor: pointer;
 }
 
-header label[for="burger"] i {
-    margin: 0;
-    font-size: 1.25rem;
-}
 
 @media (width <=750px) {
     header label[for="burger"] {
@@ -83,7 +79,14 @@ header label[for="burger"] i {
         flex-direction: column;
     }
 
+    #act .grid-container {
+        grid-template-columns: 1fr;
     }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
 
 footer {
     padding: 5vw 10vw;
