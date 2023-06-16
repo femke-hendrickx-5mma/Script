@@ -95,6 +95,8 @@ header label[for="burger"] {
         padding: 1rem 1ch;
     }
 
+
+
 footer {
     padding: 5vw 10vw;
     background-color: #EB92BE;
@@ -128,4 +130,11 @@ footer i:hover {
     transform: scale(1.1);
 }
 
+@keyframes scale{
+    0% {
+        transform: scale(0);
+    }
+    100%{transform: scale(1);}
+}
     
+.try{animation: scale 7s ease-out infinite;}
